@@ -4,8 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: lib/tuist/billing.ex:59
 #: lib/tuist_web/live/billing_live.ex:219
@@ -21,7 +20,7 @@ msgstr "0,50$"
 #: lib/tuist_web/live/accept_invitation_live.ex:136
 #, elixir-autogen, elixir-format
 msgid "%{inviter} has invited you to join the %{organization} organization"
-msgstr "%{inviter} пригласил вас присоединиться к организации %{organization}"
+msgstr "%{inviter} пригласил(а) вас присоединиться к организации %{organization}"
 
 #: lib/tuist_web/live/billing_live.html.heex:294
 #, elixir-autogen, elixir-format
@@ -55,13 +54,13 @@ msgstr "Air"
 #: lib/tuist_web/live/billing_live.html.heex:317
 #, elixir-autogen, elixir-format
 msgid "All billing correspondence will go to this email"
-msgstr "Вся переписка по счетам будет отправлена на этот адрес электронной почты"
+msgstr "Вся корреспонденция по оплате будет отправлена на этот адрес электронной почты"
 
 #: lib/tuist/billing.ex:46
 #: lib/tuist_web/live/billing_live.ex:194
 #, elixir-autogen, elixir-format
 msgid "All features, no credit card required"
-msgstr "Все функции, кредитная карта не требуется"
+msgstr "Все функции, без необходимости в кредитной карте"
 
 #: lib/tuist_web/live/members_live.ex:59
 #, elixir-autogen, elixir-format
@@ -93,7 +92,7 @@ msgstr "Оплата"
 #: lib/tuist_web/live/billing_live.html.heex:314
 #, elixir-autogen, elixir-format
 msgid "Billing email"
-msgstr "Email для выставления счетов"
+msgstr "Почта для счетов"
 
 #: lib/tuist_web/live/account_settings_live.ex:379
 #: lib/tuist_web/live/account_settings_live.ex:466
@@ -101,7 +100,7 @@ msgstr "Email для выставления счетов"
 #: lib/tuist_web/live/account_settings_live.html.heex:143
 #: lib/tuist_web/live/account_settings_live.html.heex:218
 #: lib/tuist_web/live/account_settings_live.html.heex:290
-#: lib/tuist_web/live/authentication_settings_live.html.heex:512
+#: lib/tuist_web/live/authentication_settings_live.html.heex:513
 #: lib/tuist_web/live/create_organization_live.ex:83
 #: lib/tuist_web/live/members_live.ex:157
 #: lib/tuist_web/live/members_live.ex:206
@@ -112,22 +111,22 @@ msgstr "Отмена"
 #: lib/tuist_web/live/billing_live.html.heex:156
 #, elixir-autogen, elixir-format
 msgid "Change subscription plan"
-msgstr "Изменить план подписки"
+msgstr "Изменить тарифный план"
 
 #: lib/tuist_web/live/billing_live.html.heex:154
 #, elixir-autogen, elixir-format
 msgid "Change your subscription to fit your needs."
-msgstr "Измените подписку, чтобы она соответствовала вашим потребностям."
+msgstr "Измените подписку в соответствии с вашими потребностями."
 
 #: lib/tuist_web/live/account_settings_live.ex:291
 #, elixir-autogen, elixir-format
 msgid "Choose where your artifacts, like module cache binaries, are stored for legal compliance."
-msgstr "Выберите, где хранятся ваши артефакты, такие как бинарные кэши модулей, для соблюдения юридических требований."
+msgstr "Выберите место хранения артефактов, таких как двоичные файлы кэша модулей, для соблюдения юридических требований."
 
 #: lib/tuist/billing.ex:47
 #, elixir-autogen, elixir-format
 msgid "Community support"
-msgstr "Поддержка сообщества"
+msgstr "Сообщество поддержки"
 
 #: lib/tuist_web/live/billing_live.ex:195
 #, elixir-autogen, elixir-format
@@ -137,7 +136,7 @@ msgstr "Поддержка сообщества через форум"
 #: lib/tuist_web/live/billing_live.html.heex:111
 #, elixir-autogen, elixir-format
 msgid "Community support: Support via community forum"
-msgstr "Поддержка сообщества: поддержка через форум сообщества"
+msgstr "Поддержка сообщества: помощь через форум сообщества"
 
 #: lib/tuist_web/live/billing_live.html.heex:147
 #, elixir-autogen, elixir-format
@@ -152,7 +151,7 @@ msgstr "Подтвердите ваш email"
 #: lib/tuist/accounts/user_notifier.ex:104
 #, elixir-autogen, elixir-format
 msgid "Confirmation instructions"
-msgstr "Инструкции по подтверждению"
+msgstr "Инструкции для подтверждения"
 
 #: lib/tuist/billing.ex:79
 #: lib/tuist_web/live/billing_live.ex:256
@@ -168,20 +167,20 @@ msgstr "Создать организацию"
 #: lib/tuist_web/live/billing_live.ex:246
 #, elixir-autogen, elixir-format
 msgid "Create your plan or self-host your instance"
-msgstr "Создайте ваш план или разместите инстанс самостоятельно"
+msgstr "Создайте свой тарифный план или разместите свой экземпляр самостоятельно"
 
 #: lib/tuist/billing.ex:77
 #: lib/tuist_web/live/billing_live.html.heex:88
 #, elixir-autogen, elixir-format
 msgid "Create your plan or self-host your instance."
-msgstr "Создайте ваш план или разместите инстанс самостоятельно."
+msgstr "Создайте свой тариф или разместите свой экземпляр самостоятельно."
 
 #: lib/tuist_web/live/billing_live.ex:201
 #: lib/tuist_web/live/billing_live.ex:230
 #: lib/tuist_web/live/billing_live.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Current plan"
-msgstr "Текущий план"
+msgstr "Текущий тариф"
 
 #: lib/tuist/billing.ex:78
 #: lib/tuist_web/live/billing_live.ex:247
@@ -199,7 +198,7 @@ msgstr "Индивидуальные условия"
 #: lib/tuist_web/live/billing_live.html.heex:133
 #, elixir-autogen, elixir-format
 msgid "Custom terms: Tailored agreements to meet your specific needs"
-msgstr "Индивидуальные условия: соглашения, адаптированные под ваши конкретные потребности"
+msgstr "Индивидуальные условия: соглашения, адаптированные под ваши конкретные требования"
 
 #: lib/tuist_web/live/accept_invitation_live.ex:154
 #, elixir-autogen, elixir-format
@@ -234,7 +233,7 @@ msgstr "Настройте вашего провайдера OAuth2 для пе�
 #: lib/tuist_web/live/authentication_settings_live.html.heex:163
 #, elixir-autogen, elixir-format
 msgid "Create an OAuth2 application in your identity provider."
-msgstr "Создайте приложение OAuth2 у вашего провайдера идентификации."
+msgstr "Создайте OAuth2-приложение у вашего провайдера удостоверений."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:177
 #, elixir-autogen, elixir-format
@@ -249,7 +248,7 @@ msgstr "URL провайдера"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:227
 #, elixir-autogen, elixir-format
 msgid "The base URL of your identity provider, for example https://auth.example.com."
-msgstr "Базовый URL вашего провайдера идентификации, например https://auth.example.com."
+msgstr "Базовый URL вашего провайдера удостоверений, например https://auth.example.com."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:246
 #, elixir-autogen, elixir-format
@@ -259,7 +258,7 @@ msgstr "URL авторизации"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:249
 #, elixir-autogen, elixir-format
 msgid "The full authorization endpoint URL used to start the OAuth2 flow."
-msgstr "Полный URL конечной точки авторизации, используемый для запуска OAuth2 процесса."
+msgstr "Полный URL конечной точки авторизации, используемый для начала процесса OAuth2."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:268
 #, elixir-autogen, elixir-format
@@ -279,17 +278,17 @@ msgstr "URL информации о пользователе"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:293
 #, elixir-autogen, elixir-format
 msgid "The full user info endpoint URL that returns the authenticated user profile."
-msgstr "Полный URL конечной точки информации о пользователе, который возвращает профиль аутентифицированного пользователя."
+msgstr "Полный URL конечной точки информации о пользователе, возвращающий профиль аутентифицированного пользователя."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:315
 #, elixir-autogen, elixir-format
 msgid "The client ID from your OAuth2 application."
-msgstr "ID клиента вашего OAuth2 приложения."
+msgstr "ID клиента вашего OAuth2-приложения."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:334
 #, elixir-autogen, elixir-format
 msgid "The client secret from your OAuth2 application."
-msgstr "Секрет клиента вашего OAuth2 приложения."
+msgstr "Секрет клиента вашего OAuth2-приложения."
 
 #: lib/tuist_web/live/account_settings_live.html.heex:90
 #: lib/tuist_web/live/account_settings_live.html.heex:111
@@ -300,12 +299,12 @@ msgstr "Удалить организацию"
 #: lib/tuist_web/live/account_settings_live.html.heex:124
 #, elixir-autogen, elixir-format
 msgid "Deleting the organization will delete all of its projects"
-msgstr "Удаление организации приведет к удалению всех её проектов"
+msgstr "Удаление организации приведёт к удалению всех её проектов"
 
 #: lib/tuist_web/live/account_settings_live.html.heex:272
 #, elixir-autogen, elixir-format
 msgid "Deleting your account will also delete all the projects that belong to it"
-msgstr "Удаление вашего аккаунта удалит также все принадлежащие ему проекты"
+msgstr "Удаление вашего аккаунта также приведёт к удалению всех проектов, связанных с ним"
 
 #: lib/tuist/accounts/user_notifier.ex:137
 #, elixir-autogen, elixir-format
@@ -320,7 +319,7 @@ msgstr "Понизить тариф"
 #: lib/tuist_web/live/members_live.ex:90
 #, elixir-autogen, elixir-format
 msgid "E-mail"
-msgstr "Электронная почта"
+msgstr "Эл. почта"
 
 #: lib/tuist_web/live/billing_live.html.heex:334
 #: lib/tuist_web/live/members_live.ex:274
@@ -341,14 +340,14 @@ msgstr "Введите имя этой организации для подтв�
 #: lib/tuist_web/live/account_settings_live.html.heex:279
 #, elixir-autogen, elixir-format
 msgid "Enter your username to confirm"
-msgstr "Введите ваше имя пользователя для подтверждения"
+msgstr "Введите ваш логин для подтверждения"
 
 #: lib/tuist/billing.ex:75
 #: lib/tuist_web/live/billing_live.ex:245
 #: lib/tuist_web/live/billing_live.html.heex:61
 #, elixir-autogen, elixir-format
 msgid "Enterprise"
-msgstr "Enterprise"
+msgstr "Корпоративный"
 
 #: lib/tuist_web/live/account_settings_live.ex:308
 #, elixir-autogen, elixir-format
@@ -371,7 +370,7 @@ msgstr "Превышен лимит бесплатного тарифа"
 #: lib/tuist_web/live/billing_live.ex:193
 #, elixir-autogen, elixir-format
 msgid "Free under tier limits"
-msgstr "Использование в пределах бесплатного тарифа"
+msgstr "Бесплатно в пределах лимитов тарифа"
 
 #: lib/tuist/billing.ex:63
 #, elixir-autogen, elixir-format
@@ -381,17 +380,17 @@ msgstr "Щедрая базовая цена"
 #: lib/tuist_web/live/billing_live.html.heex:116
 #, elixir-autogen, elixir-format
 msgid "Generous base price: Pay nothing if below free tier limits"
-msgstr "Щедрая базовая цена: ничего не платите, если не превышаете лимиты бесплатного тарифа"
+msgstr "Щедрая базовая цена: не платите ничего, если не превышаете лимиты бесплатного тарифа"
 
 #: lib/tuist/billing.ex:43
 #, elixir-autogen, elixir-format
 msgid "Generous free monthly tier"
-msgstr "Щедрый бесплатный месячный лимит"
+msgstr "Щедрый бесплатный месячный тариф"
 
 #: lib/tuist_web/live/billing_live.html.heex:99
 #, elixir-autogen, elixir-format
 msgid "Generous free monthly tier: Usage capped at free tier limits"
-msgstr "Щедрый бесплатный месячный лимит: использование ограничено лимитами бесплатного тарифа"
+msgstr "Щедрый бесплатный месячный тариф: использование ограничено лимитами бесплатного тарифа"
 
 #: lib/tuist/billing.ex:41
 #: lib/tuist/billing.ex:61
@@ -402,13 +401,13 @@ msgstr "Начать"
 #: lib/tuist_web/live/billing_live.ex:190
 #, elixir-autogen, elixir-format
 msgid "Get started with no credit card required"
-msgstr "Начните без необходимости ввода кредитной карты"
+msgstr "Начните без необходимости в кредитной карте"
 
 #: lib/tuist/billing.ex:39
 #: lib/tuist_web/live/billing_live.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "Get started with no credit card required—try with no commitment."
-msgstr "Начните без необходимости ввода кредитной карты — попробуйте без обязательств."
+msgstr "Начните без кредитной карты — попробуйте без обязательств."
 
 #: lib/tuist/accounts/user_notifier.ex:172
 #, elixir-autogen, elixir-format
@@ -464,23 +463,23 @@ msgstr "Узнать больше"
 #: lib/tuist/billing.ex:45
 #, elixir-autogen, elixir-format
 msgid "Like, totally free"
-msgstr "Прямо-таки полностью бесплатно"
+msgstr "Практически полностью бесплатно"
 
 #: lib/tuist_web/live/billing_live.html.heex:105
 #, elixir-autogen, elixir-format
 msgid "Like, totally free: All features, no credit card required"
-msgstr "Прямо-таки полностью бесплатно: все функции, без необходимости кредитной карты"
+msgstr "Практически полностью бесплатно: все функции, кредитная карта не требуется"
 
 #: lib/tuist_web/live/members_live.ex:99
 #: lib/tuist_web/live/members_live.ex:236
 #, elixir-autogen, elixir-format
 msgid "Manage role"
-msgstr "Управлять ролью"
+msgstr "Управление ролью"
 
 #: lib/tuist_web/live/billing_live.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Manage your billing and payment details"
-msgstr "Управляйте своими данными для оплаты и счетами"
+msgstr "Управляйте информацией о платеже и оплате"
 
 #: lib/tuist_web/live/members_live.ex:78
 #, elixir-autogen, elixir-format
@@ -498,7 +497,7 @@ msgstr "Участники"
 msgid "Most Popular"
 msgstr "Самый популярный"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:532
+#: lib/tuist_web/live/authentication_settings_live.html.heex:533
 #: lib/tuist_web/live/create_organization_live.ex:65
 #, elixir-autogen, elixir-format
 msgid "Name"
@@ -523,17 +522,17 @@ msgstr "Участники не найдены"
 #: lib/tuist_web/live/billing_live.ex:250
 #, elixir-autogen, elixir-format
 msgid "On-premise"
-msgstr "Локально"
+msgstr "Локальное размещение"
 
 #: lib/tuist_web/live/billing_live.html.heex:139
 #, elixir-autogen, elixir-format
 msgid "On-premise: Self-host your instance of Tuist"
-msgstr "Локально: Разместите свой инстанс Tuist самостоятельно"
+msgstr "Локальное размещение: разместите свой экземпляр Tuist самостоятельно"
 
 #: lib/tuist_web/live/billing_live.html.heex:59
 #, elixir-autogen, elixir-format
 msgid "Open source"
-msgstr "Открытый код"
+msgstr "Открытый исходный код"
 
 #: lib/tuist_web/live/account_settings_live.html.heex:60
 #: lib/tuist_web/live/account_settings_live.html.heex:134
@@ -550,13 +549,13 @@ msgstr "Пароли не совпадают"
 #: lib/tuist_web/live/billing_live.ex:222
 #, elixir-autogen, elixir-format
 msgid "Pay nothing if below free tier limits"
-msgstr "Не платите ничего, если вы не превысили лимиты бесплатного тарифа"
+msgstr "Не платите ничего, если не превышаете лимиты бесплатного тарифа"
 
 #: lib/tuist/billing.ex:66
 #: lib/tuist_web/live/billing_live.ex:223
 #, elixir-autogen, elixir-format
 msgid "Pay only for what you use per feature"
-msgstr "Платите только за то, чем пользуетесь, по каждой функции"
+msgstr "Платите только за используемые функции"
 
 #: lib/tuist_web/live/billing_live.html.heex:243
 #, elixir-autogen, elixir-format
@@ -566,7 +565,7 @@ msgstr "Способ оплаты"
 #: lib/tuist_web/live/billing_live.html.heex:246
 #, elixir-autogen, elixir-format
 msgid "Payments for your subscription are made using the default card."
-msgstr "Платежи за вашу подписку осуществляются с использованием карты по умолчанию."
+msgstr "Платежи по вашей подписке производятся с использованием карты по умолчанию."
 
 #: lib/tuist_web/live/members_live.ex:279
 #, elixir-autogen, elixir-format
@@ -581,7 +580,7 @@ msgstr "Цена"
 #: lib/tuist_web/live/billing_live.html.heex:172
 #, elixir-autogen, elixir-format
 msgid "Pricing details"
-msgstr "Детали цен"
+msgstr "Подробности цены"
 
 #: lib/tuist/billing.ex:85
 #, elixir-autogen, elixir-format
@@ -613,12 +612,12 @@ msgstr "Регион"
 #: lib/tuist_web/live/billing_live.html.heex:225
 #, elixir-autogen, elixir-format
 msgid "Remote cache hits"
-msgstr "Удалённые попадания в кэш"
+msgstr "Попадания в удалённый кэш"
 
 #: lib/tuist_web/live/billing_live.html.heex:34
 #, elixir-autogen, elixir-format
 msgid "Remote cache hits:"
-msgstr "Удалённые попадания в кэш:"
+msgstr "Попадания в удалённый кэш:"
 
 #: lib/tuist_web/live/members_live.ex:214
 #, elixir-autogen, elixir-format
@@ -646,7 +645,7 @@ msgstr "Переименовать организацию"
 #: lib/tuist_web/live/account_settings_live.html.heex:37
 #, elixir-autogen, elixir-format
 msgid "Rename your organization?"
-msgstr "Переименовать организацию?"
+msgstr "Переименовать вашу организацию?"
 
 #: lib/tuist_web/live/account_settings_live.html.heex:55
 #: lib/tuist_web/live/account_settings_live.html.heex:205
@@ -657,7 +656,7 @@ msgstr "Переименование может иметь неожиданны�
 #: lib/tuist_web/live/account_settings_live.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "Renaming your organization can have unintended side effects."
-msgstr "Переименование вашей организации может иметь непредвиденные побочные эффекты."
+msgstr "Переименование вашей организации может вызвать побочные эффекты."
 
 #: lib/tuist/accounts/user_notifier.ex:133
 #, elixir-autogen, elixir-format
@@ -698,7 +697,7 @@ msgstr "Выберите регион"
 #: lib/tuist/billing.ex:84
 #, elixir-autogen, elixir-format
 msgid "Self-host your instance of Tuist"
-msgstr "Разместите инстанс Tuist самостоятельно"
+msgstr "Разместите свой экземпляр Tuist самостоятельно"
 
 #: lib/tuist_web/live/account_settings_live.ex:44
 #: lib/tuist_web/live/account_settings_live.html.heex:3
@@ -745,12 +744,12 @@ msgstr "Индивидуальные соглашения, соответств�
 #: lib/tuist_web/live/account_settings_live.html.heex:242
 #, elixir-autogen, elixir-format
 msgid "This action cannot be undone."
-msgstr "Это действие невозможно отменить."
+msgstr "Это действие необратимо."
 
 #: lib/tuist/accounts/user_notifier.ex:110
 #, elixir-autogen, elixir-format
 msgid "To start using Tuist, verify your email and you are good to go:"
-msgstr "Чтобы начать использовать Tuist, подтвердите ваш email и можно начинать:"
+msgstr "Чтобы начать использовать Tuist, подтвердите ваш email и можно приступать:"
 
 #: lib/tuist_web/live/billing_live.html.heex:234
 #, elixir-autogen, elixir-format
@@ -773,7 +772,7 @@ msgstr "Логотип Tuist"
 msgid "United States"
 msgstr "Соединённые Штаты"
 
-#: lib/tuist/vcs.ex:500
+#: lib/tuist/vcs.ex:505
 #, elixir-autogen, elixir-format
 msgid "Unknown"
 msgstr "Неизвестно"
@@ -786,7 +785,7 @@ msgstr "Неограниченное количество проектов"
 #: lib/tuist_web/live/billing_live.html.heex:325
 #, elixir-autogen, elixir-format
 msgid "Update billing email"
-msgstr "Обновить email для выставления счетов"
+msgstr "Обновить почту для оплаты"
 
 #: lib/tuist_web/live/billing_live.html.heex:257
 #, elixir-autogen, elixir-format
@@ -817,7 +816,7 @@ msgstr "Повысить тариф"
 #: lib/tuist_web/live/billing_live.html.heex:162
 #, elixir-autogen, elixir-format
 msgid "Upgrade plan"
-msgstr "Повысить план"
+msgstr "Повысить тарифный план"
 
 #: lib/tuist_web/live/billing_live.html.heex:206
 #, elixir-autogen, elixir-format
@@ -832,33 +831,33 @@ msgstr "Использование ограничено лимитами бес�
 #: lib/tuist_web/live/billing_live.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "Usage details"
-msgstr "Детали использования"
+msgstr "Подробности использования"
 
 #: lib/tuist_web/live/billing_live.html.heex:69
 #, elixir-autogen, elixir-format
 msgid "Usage-based"
-msgstr "На основе использования"
+msgstr "Оплата по использованию"
 
 #: lib/tuist/billing.ex:65
 #, elixir-autogen, elixir-format
 msgid "Usage-based pricing"
-msgstr "Ценообразование на основе использования"
+msgstr "Тарифы на основе использования"
 
 #: lib/tuist_web/live/billing_live.ex:218
 #, elixir-autogen, elixir-format
 msgid "Usage-based pricing after free tier"
-msgstr "Ценообразование на основе использования после бесплатного тарифа"
+msgstr "Тарифы на основе использования после бесплатного тарифа"
 
 #: lib/tuist/billing.ex:58
 #: lib/tuist_web/live/billing_live.html.heex:85
 #, elixir-autogen, elixir-format
 msgid "Usage-based pricing after free tier."
-msgstr "Ценообразование на основе использования после бесплатного тарифа."
+msgstr "Тарифы на основе использования после бесплатного тарифа."
 
 #: lib/tuist_web/live/billing_live.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Usage-based pricing: Pay only for what you use per feature"
-msgstr "Ценообразование на основе использования: платите только за использованные функции"
+msgstr "Тарифы на основе использования: платите только за используемые функции"
 
 #: lib/tuist_web/live/billing_live.html.heex:91
 #, elixir-autogen, elixir-format
@@ -892,7 +891,7 @@ msgstr "Через общий канал Slack"
 #: lib/tuist_web/live/billing_live.ex:13
 #, elixir-autogen, elixir-format
 msgid "You are not authorized to perform this action."
-msgstr "У вас нет прав для выполнения этого действия."
+msgstr "У вас нет прав на выполнение этого действия."
 
 #: lib/tuist_web/live/accept_invitation_live.ex:133
 #, elixir-autogen, elixir-format
@@ -902,17 +901,17 @@ msgstr "Вас пригласили"
 #: lib/tuist/accounts/user_notifier.ex:116
 #, elixir-autogen, elixir-format
 msgid "You received this email because you recently signed up for a Tuist account."
-msgstr "Вы получили это письмо, потому что недавно зарегистрировались в аккаунте Tuist."
+msgstr "Вы получили это письмо, потому что недавно зарегистрировались в Tuist."
 
 #: lib/tuist/accounts/user_notifier.ex:145
 #, elixir-autogen, elixir-format
 msgid "You received this email because you requested a password reset for your Tuist account."
-msgstr "Вы получили это письмо, потому что запросили сброс пароля для аккаунта Tuist."
+msgstr "Вы получили это письмо, потому что запросили сброс пароля для вашей учётной записи Tuist."
 
 #: lib/tuist/accounts/user_notifier.ex:170
 #, elixir-autogen, elixir-format
 msgid "You were invited to join the %{organization_name} Tuist organization by %{inviter_email}"
-msgstr "Вас пригласил %{inviter_email} присоединиться к организации %{organization_name} Tuist"
+msgstr "Вас пригласил %{inviter_email} присоединиться к организации Tuist %{organization_name}"
 
 #: lib/tuist/accounts/user_notifier.ex:108
 #, elixir-autogen, elixir-format
@@ -922,7 +921,7 @@ msgstr "Вы почти готовы!"
 #: lib/tuist_web/live/billing_live.html.heex:210
 #, elixir-autogen, elixir-format
 msgid "You’ve exceeded your free tier quota and will incur charges for additional usage."
-msgstr "Вы превысили квоту бесплатного тарифа и будете оплачивать дополнительное использование."
+msgstr "Вы превысили лимит бесплатного тарифа, и за дополнительное использование будут взиматься сборы."
 
 #: lib/tuist_web/live/billing_live.html.heex:47
 #, elixir-autogen, elixir-format
@@ -943,12 +942,12 @@ msgstr "и выше"
 #: lib/tuist_web/live/billing_live.ex:36
 #, elixir-autogen, elixir-format
 msgid "charged /per month"
-msgstr "снято /в месяц"
+msgstr "оплата /в месяц"
 
 #: lib/tuist_web/live/billing_live.ex:38
 #, elixir-autogen, elixir-format
 msgid "charged on %{next_charge_date}"
-msgstr "списано %{next_charge_date}"
+msgstr "списание будет %{next_charge_date}"
 
 #: lib/tuist_web/live/billing_live.html.heex:301
 #, elixir-autogen, elixir-format
@@ -988,7 +987,7 @@ msgstr "Удалить последнюю конечную точку кэша?"
 #: lib/tuist_web/live/account_settings_live.ex:453
 #, elixir-autogen, elixir-format
 msgid "Removing the last custom cache endpoint will switch your organization back to Tuist-hosted caching. This affects all builds across your organization."
-msgstr "Удаление последней пользовательской конечной точки кэша переключит вашу организацию обратно на кэш с хостингом Tuist. Это повлияет на все сборки в вашей организации."
+msgstr "Удаление последней пользовательской конечной точки кэша переключит вашу организацию обратно на кэширование, размещённое Tuist. Это повлияет на все сборки вашей организации."
 
 #: lib/tuist_web/live/account_settings_live.ex:331
 #, elixir-autogen, elixir-format
@@ -998,17 +997,17 @@ msgstr "Конечные точки кэша"
 #: lib/tuist_web/live/account_settings_live.ex:335
 #, elixir-autogen, elixir-format
 msgid "Configure custom cache endpoints for self-hosted cache setups. When enabled, Tuist will read from and write to these endpoints instead of the default Tuist-hosted cache."
-msgstr "Настройте пользовательские конечные точки кэша для локальных кэшей. При включении Tuist будет читать и записывать в эти конечные точки вместо стандартного кэша с хостингом Tuist."
+msgstr "Настройте пользовательские конечные точки кэша для локальных установок кэша. При включении Tuist будет читать и записывать данные в эти точки вместо кэша, размещённого Tuist по умолчанию."
 
 #: lib/tuist_web/live/account_settings_live.ex:403
 #, elixir-autogen, elixir-format
 msgid "Custom cache endpoints are disabled. Tuist will use the default Tuist-hosted cache."
-msgstr "Пользовательские конечные точки кэша отключены. Tuist будет использовать стандартный кэш с хостингом Tuist."
+msgstr "Пользовательские конечные точки кэша отключены. Tuist будет использовать кэш, размещённый Tuist по умолчанию."
 
 #: lib/tuist_web/live/account_settings_live.ex:415
 #, elixir-autogen, elixir-format
 msgid "No custom cache endpoints configured. Tuist will use the default Tuist-hosted cache until endpoints are added."
-msgstr "Пользовательские конечные точки кэша не настроены. Tuist будет использовать стандартный кэш с хостингом Tuist, пока не будут добавлены конечные точки."
+msgstr "Пользовательские конечные точки кэша не настроены. Пока они не добавлены, Tuist будет использовать кэш, размещённый Tuist по умолчанию."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:312
 #, elixir-autogen, elixir-format
@@ -1028,7 +1027,7 @@ msgstr "Скопируйте ID клиента и секрет клиента и
 #: lib/tuist_web/live/authentication_settings_live.html.heex:108
 #, elixir-autogen, elixir-format
 msgid "Go to Applications > Applications > Create App Integration"
-msgstr "Перейдите в Applications > Applications > Создать интеграцию приложения"
+msgstr "Перейдите в Приложения > Приложения > Создать интеграцию приложения"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:77
 #, elixir-autogen, elixir-format
@@ -1048,22 +1047,22 @@ msgstr "Провайдер"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Select \"OIDC - OpenID Connect\" and \"Web Application\""
-msgstr "Выберите «OIDC - OpenID Connect» и «Веб-приложение»"
+msgstr "Выберите «OIDC - OpenID Connect» и «Web Application»"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:21
 #, elixir-autogen, elixir-format
 msgid "Single Sign-On"
 msgstr "Единый вход (SSO)"
 
-#: lib/tuist_web/live/authentication_settings_live.ex:346
+#: lib/tuist_web/live/authentication_settings_live.ex:343
 #, elixir-autogen, elixir-format
 msgid "You must be authenticated with Google using an email tied to this domain. Please sign in with Google first."
-msgstr "Вы должны аутентифицироваться через Google, используя электронную почту с этим доменом. Пожалуйста, сначала войдите через Google."
+msgstr "Вы должны войти в Google с электронной почтой, связанной с этим доменом. Пожалуйста, сначала войдите через Google."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:98
 #, elixir-autogen, elixir-format
 msgid "Create an OIDC Web Application in your Okta admin dashboard before configuring the fields below."
-msgstr "Создайте веб-приложение OIDC в вашей административной панели Okta перед настройкой нижеуказанных полей."
+msgstr "Создайте OIDC Web Application в вашей административной панели Okta перед настройкой полей ниже."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:51
 #, elixir-autogen, elixir-format
@@ -1078,7 +1077,7 @@ msgstr "Сохранить изменения"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:54
 #, elixir-autogen, elixir-format
 msgid "Select an SSO provider to allow users to sign in to Tuist and automatically join this organization."
-msgstr "Выберите провайдера SSO, чтобы пользователи могли входить в Tuist и автоматически присоединяться к этой организации."
+msgstr "Выберите провайдера SSO, чтобы пользователи могли войти в Tuist и автоматически присоединиться к этой организации."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:95
 #: lib/tuist_web/live/authentication_settings_live.html.heex:150
@@ -1089,7 +1088,7 @@ msgstr "Инструкции по настройке"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:80
 #, elixir-autogen, elixir-format
 msgid "Users signing in with a Google account from this domain will be automatically added to this organization."
-msgstr "Пользователи, входящие с аккаунтом Google из этого домена, будут автоматически добавлены в эту организацию."
+msgstr "Пользователи, входящие с Google-аккаунтом из этого домена, будут автоматически добавлены в эту организацию."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:204
 #, elixir-autogen, elixir-format
@@ -1110,7 +1109,7 @@ msgstr "Включите и настройте SSO для вашей орган�
 #: lib/tuist_web/live/authentication_settings_live.html.heex:183
 #, elixir-autogen, elixir-format
 msgid "Set the initiate login URI to:"
-msgstr "Установите URI для начала входа:"
+msgstr "Установите URI для инициирования входа в систему:"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:120
 #: lib/tuist_web/live/authentication_settings_live.html.heex:169
@@ -1121,17 +1120,17 @@ msgstr "Установите URI перенаправления после вх�
 #: lib/tuist_web/live/authentication_settings_live.html.heex:362
 #, elixir-autogen, elixir-format
 msgid "Enforce SSO"
-msgstr "Принудительный SSO"
+msgstr "Принудительное использование SSO"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:365
 #, elixir-autogen, elixir-format
 msgid "When enabled, organization members will not be able to log in with email and password. They must use SSO instead."
-msgstr "Если включено, участники организации не смогут входить с помощью email и пароля. Им нужно использовать SSO."
+msgstr "Когда включено, участники организации не смогут войти с помощью email и пароля. Они должны использовать SSO."
 
-#: lib/tuist_web/live/authentication_settings_live.ex:332
+#: lib/tuist_web/live/authentication_settings_live.ex:329
 #, elixir-autogen, elixir-format
 msgid "You must authenticate with the SSO provider before enforcing SSO. Please sign in with your SSO provider first."
-msgstr "Вы должны аутентифицироваться у провайдера SSO перед применением принудительного SSO. Пожалуйста, сначала войдите через вашего провайдера SSO."
+msgstr "Вы должны аутентифицироваться у провайдера SSO перед включением принудительного использования SSO. Пожалуйста, сначала войдите через вашего провайдера SSO."
 
 #: lib/tuist_web/live/create_organization_live.ex:77
 #, elixir-autogen, elixir-format
@@ -1151,12 +1150,12 @@ msgstr "Как называется ваша компания или коман�
 #: lib/tuist_web/live/account_settings_live.ex:243
 #, elixir-autogen, elixir-format
 msgid "Browser default"
-msgstr "По умолчанию в браузере"
+msgstr "Настройки браузера по умолчанию"
 
 #: lib/tuist_web/live/account_settings_live.ex:253
 #, elixir-autogen, elixir-format
 msgid "Choose your preferred dashboard language."
-msgstr "Выберите язык панели управления по умолчанию."
+msgstr "Выберите предпочитаемый язык панели управления."
 
 #: lib/tuist_web/live/account_settings_live.ex:250
 #, elixir-autogen, elixir-format
@@ -1177,12 +1176,12 @@ msgstr "OAuth2"
 #: lib/tuist_web/live/accept_invitation_live.ex:164
 #, elixir-autogen, elixir-format
 msgid "This invitation is addressed to %{email}. Log out and sign in with that account to accept it."
-msgstr "Это приглашение адресовано %{email}. Выйдите из системы и войдите с этим аккаунтом, чтобы принять приглашение."
+msgstr "Это приглашение адресовано %{email}. Выйдите из текущего аккаунта и войдите с этим, чтобы принять приглашение."
 
 #: lib/tuist_web/live/accept_invitation_live.ex:183
 #, elixir-autogen, elixir-format
 msgid "We could not find the invitation you are trying to accept. Please ask the inviter to send a new invitation."
-msgstr "Мы не смогли найти приглашение, которое вы пытаетесь принять. Пожалуйста, попросите приглашающего отправить новое приглашение."
+msgstr "Мы не смогли найти приглашение, которое вы пытаетесь принять. Пожалуйста, попросите отправителя прислать новое приглашение."
 
 #: lib/tuist_web/live/accept_invitation_live.ex:161
 #, elixir-autogen, elixir-format
@@ -1192,7 +1191,7 @@ msgstr "Неверный аккаунт"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Allow members to sign in to Tuist through your identity provider."
-msgstr "Разрешить участникам входить в Tuist через вашего провайдера идентификации."
+msgstr "Позвольте участникам входить в Tuist через вашего провайдера удостоверений."
 
 #: lib/tuist_web/live/authentication_settings_live.ex:44
 #: lib/tuist_web/live/authentication_settings_live.html.heex:3
@@ -1213,47 +1212,47 @@ msgstr "URL конечной точки SCIM"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:453
 #, elixir-autogen, elixir-format
 msgid "Copy it now — it will not be shown again after you close this dialog."
-msgstr "Скопируйте сейчас — это не будет отображаться снова после закрытия диалога."
+msgstr "Скопируйте сейчас — после закрытия окна это больше не будет показано."
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:468
+#: lib/tuist_web/live/authentication_settings_live.html.heex:469
 #, elixir-autogen, elixir-format
 msgid "Copy token"
 msgstr "Скопировать токен"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:535
+#: lib/tuist_web/live/authentication_settings_live.html.heex:536
 #, elixir-autogen, elixir-format
 msgid "Created"
-msgstr "Создан"
+msgstr "Создано"
 
 #: lib/tuist_web/live/accept_invitation_live.ex:201
 #, elixir-autogen, elixir-format
 msgid "Dashboard"
 msgstr "Панель управления"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:506
+#: lib/tuist_web/live/authentication_settings_live.html.heex:507
 #, elixir-autogen, elixir-format
 msgid "Done"
 msgstr "Готово"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:517
+#: lib/tuist_web/live/authentication_settings_live.html.heex:518
 #, elixir-autogen, elixir-format
 msgid "Generate"
-msgstr "Сгенерировать"
+msgstr "Создать"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:430
 #, elixir-autogen, elixir-format
 msgid "Generate SCIM token"
-msgstr "Сгенерировать SCIM токен"
+msgstr "Создать SCIM-токен"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:571
+#: lib/tuist_web/live/authentication_settings_live.html.heex:572
 #, elixir-autogen, elixir-format
 msgid "Generate one above to start provisioning from your IdP."
-msgstr "Сгенерируйте один выше, чтобы начать предоставление из вашего IdP."
+msgstr "Создайте токен выше, чтобы начать предоставление данных из вашего IdP."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:436
 #, elixir-autogen, elixir-format
 msgid "Generate token"
-msgstr "Сгенерировать токен"
+msgstr "Создать токен"
 
 #: lib/tuist_web/live/accept_invitation_live.ex:84
 #, elixir-autogen, elixir-format
@@ -1268,9 +1267,9 @@ msgstr "Приглашение отклонено"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:421
 #, elixir-autogen, elixir-format
 msgid "Issue one bearer token per IdP. Revoke a token if it leaks or is no longer needed."
-msgstr "Выдавайте один bearer токен на IdP. Отзывайте токен, если он скомпрометирован или больше не нужен."
+msgstr "Выдавайте по одному токену доступа на каждый IdP. Отзывайте токен, если он скомпрометирован или больше не нужен."
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:538
+#: lib/tuist_web/live/authentication_settings_live.html.heex:539
 #, elixir-autogen, elixir-format
 msgid "Last used"
 msgstr "Последнее использование"
@@ -1278,44 +1277,39 @@ msgstr "Последнее использование"
 #: lib/tuist_web/live/authentication_settings_live.html.heex:395
 #, elixir-autogen, elixir-format
 msgid "Let your IdP (Okta, Azure AD/Entra, JumpCloud, etc.) provision users into this organization at the SCIM endpoint URL below using a bearer token."
-msgstr "Позвольте вашему IdP (Okta, Azure AD/Entra, JumpCloud и др.) предоставлять пользователей в эту организацию через SCIM URL ниже, используя bearer токен."
+msgstr "Позвольте вашему IdP (Okta, Azure AD/Entra, JumpCloud и др.) создавать пользователей в этой организации, используя URL конечной точки SCIM ниже с токеном доступа."
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:486
+#: lib/tuist_web/live/authentication_settings_live.html.heex:487
 #, elixir-autogen, elixir-format
 msgid "Name this token so you can identify it later (for example: \"Okta\")."
-msgstr "Дайте этому токену имя, чтобы вы могли его идентифицировать позже (например: «Okta»)."
+msgstr "Назовите этот токен, чтобы позже его можно было идентифицировать (например, «Okta»)."
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:542
+#: lib/tuist_web/live/authentication_settings_live.html.heex:543
 #, elixir-autogen, elixir-format
 msgid "Never"
 msgstr "Никогда"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:569
+#: lib/tuist_web/live/authentication_settings_live.html.heex:570
 #, elixir-autogen, elixir-format
 msgid "No SCIM tokens yet"
-msgstr "Пока нет SCIM токенов"
+msgstr "Токенов SCIM пока нет"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:556
+#: lib/tuist_web/live/authentication_settings_live.html.heex:557
 #, elixir-autogen, elixir-format
 msgid "Revoke this token? This action cannot be undone."
-msgstr "Отозвать этот токен? Это действие невозможно отменить."
+msgstr "Отозвать этот токен? Это действие необратимо."
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:392
 #, elixir-autogen, elixir-format
 msgid "SCIM provisioning"
-msgstr "SCIM предоставление"
-
-#: lib/tuist_web/live/authentication_settings_live.ex:177
-#, elixir-autogen, elixir-format
-msgid "SCIM token revoked."
-msgstr "SCIM токен отозван."
+msgstr "Предоставление SCIM"
 
 #: lib/tuist_web/live/authentication_settings_live.html.heex:450
 #, elixir-autogen, elixir-format
 msgid "Token created"
 msgstr "Токен создан"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:484
+#: lib/tuist_web/live/authentication_settings_live.html.heex:485
 #, elixir-autogen, elixir-format
 msgid "Token name"
 msgstr "Имя токена"
@@ -1323,9 +1317,9 @@ msgstr "Имя токена"
 #: lib/tuist_web/live/authentication_settings_live.ex:130
 #, elixir-autogen, elixir-format
 msgid "Token name is required."
-msgstr "Имя токена обязательно."
+msgstr "Обязательное имя токена."
 
-#: lib/tuist_web/live/authentication_settings_live.ex:180
+#: lib/tuist_web/live/authentication_settings_live.ex:177
 #, elixir-autogen, elixir-format
 msgid "Token not found."
 msgstr "Токен не найден."
@@ -1335,7 +1329,7 @@ msgstr "Токен не найден."
 msgid "Tokens"
 msgstr "Токены"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:533
+#: lib/tuist_web/live/authentication_settings_live.html.heex:534
 #, elixir-autogen, elixir-format
 msgid "Unnamed"
 msgstr "Без имени"
@@ -1343,7 +1337,7 @@ msgstr "Без имени"
 #: lib/tuist_web/live/accept_invitation_live.ex:99
 #, elixir-autogen, elixir-format
 msgid "You are now a part of %{organization} organization"
-msgstr "Вы теперь частью организации %{organization}"
+msgstr "Вы теперь часть организации %{organization}"
 
 #: lib/tuist_web/live/accept_invitation_live.ex:87
 #, elixir-autogen, elixir-format
@@ -1358,14 +1352,14 @@ msgstr "Вы отклонили приглашение присоединить�
 #: lib/tuist_web/live/accept_invitation_live.ex:124
 #, elixir-autogen, elixir-format
 msgid "You won’t be able to access this organization unless invited again."
-msgstr "Вы не сможете получить доступ к этой организации, если вас снова не пригласят."
+msgstr "Вы не сможете получить доступ к этой организации, если вас не пригласят снова."
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:491
+#: lib/tuist_web/live/authentication_settings_live.html.heex:492
 #, elixir-autogen, elixir-format
 msgid "e.g. Okta"
 msgstr "например, Okta"
 
-#: lib/tuist_web/live/authentication_settings_live.html.heex:554
+#: lib/tuist_web/live/authentication_settings_live.html.heex:555
 #, elixir-autogen, elixir-format
 msgid "Revoke token"
 msgstr "Отозвать токен"

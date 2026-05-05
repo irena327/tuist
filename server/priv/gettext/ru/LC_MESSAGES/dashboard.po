@@ -4,8 +4,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: lib/tuist_web/components/previews/app_preview.ex:24
 #, elixir-autogen, elixir-format
@@ -47,17 +46,17 @@ msgstr "Настройки аккаунта"
 #: lib/tuist_web/components/percentile_dropdown_widget.ex:127
 #, elixir-autogen, elixir-format
 msgid "Avg."
-msgstr "Среднее"
+msgstr "Сред."
 
 #: lib/tuist_web/controllers/error_html.ex:16
 #, elixir-autogen, elixir-format
 msgid "Bad request"
-msgstr "Неверный запрос"
+msgstr "Некорректный запрос"
 
 #: lib/tuist_web/components/layouts/account.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Billing"
-msgstr "Оплата"
+msgstr "Платежи"
 
 #: lib/tuist_web/components/app_layout_components.ex:48
 #: lib/tuist_web/components/app_layout_components.ex:223
@@ -98,7 +97,7 @@ msgstr "Создать организацию"
 #: lib/tuist_web/components/account_dropdown.ex:91
 #, elixir-autogen, elixir-format
 msgid "Download macOS app"
-msgstr "Скачать приложение для macOS"
+msgstr "Скачать macOS-приложение"
 
 #: lib/tuist_web/components/app_layout_components.ex:405
 #, elixir-autogen, elixir-format
@@ -129,7 +128,7 @@ msgstr "Начать"
 #: lib/tuist_web/controllers/error_html.ex:155
 #, elixir-autogen, elixir-format
 msgid "Go to dashboard"
-msgstr "Перейти в панель"
+msgstr "Перейти на панель"
 
 #: lib/tuist_web/components/app_layout_components.ex:428
 #, elixir-autogen, elixir-format
@@ -145,7 +144,7 @@ msgstr "Интеграции"
 #: lib/tuist_web/controllers/github_app_setup_controller.ex:28
 #, elixir-autogen, elixir-format
 msgid "Invalid GitHub app installation. Please try again."
-msgstr "Неверная установка GitHub приложения. Пожалуйста, попробуйте снова."
+msgstr "Неверная установка GitHub-приложения. Пожалуйста, попробуйте снова."
 
 #: lib/tuist_web/controllers/github_app_setup_controller.ex:31
 #, elixir-autogen, elixir-format
@@ -155,12 +154,12 @@ msgstr "Неверный запрос на установку. Пожалуйс�
 #: lib/tuist_web/components/app_layout_components.ex:392
 #, elixir-autogen, elixir-format
 msgid "Jobs"
-msgstr "Задания"
+msgstr "Задачи"
 
 #: lib/tuist_web/components/empty_state.ex:43
 #, elixir-autogen, elixir-format
 msgid "Learn more"
-msgstr "Подробнее"
+msgstr "Узнать больше"
 
 #: lib/tuist_web/components/app_layout_components.ex:386
 #, elixir-autogen, elixir-format
@@ -185,7 +184,7 @@ msgstr "Кэш модулей"
 #: lib/tuist_web/components/percentile_dropdown_widget.ex:117
 #, elixir-autogen, elixir-format
 msgid "N/A"
-msgstr "Н/Д"
+msgstr "Недоступно"
 
 #: lib/tuist_web/components/app_components.ex:60
 #, elixir-autogen, elixir-format
@@ -206,7 +205,7 @@ msgstr "Не найдено"
 #: lib/tuist_web/authorization.ex:46
 #, elixir-autogen, elixir-format
 msgid "Only operations roles can access this page."
-msgstr "Доступ к этой странице имеют только роли операционной команды."
+msgstr "Доступ к этой странице имеют только роли операции."
 
 #: lib/tuist_web/controllers/error_html.ex:98
 #, elixir-autogen, elixir-format
@@ -241,7 +240,7 @@ msgstr "Назад"
 #: lib/tuist_web/components/app_layout_components.ex:330
 #, elixir-autogen, elixir-format
 msgid "Previews"
-msgstr "Превью"
+msgstr "Предпросмотры"
 
 #: lib/tuist_web/components/layouts/account.html.heex:14
 #, elixir-autogen, elixir-format
@@ -266,17 +265,17 @@ msgstr "Настройки проекта"
 #: lib/tuist_web/controllers/error_html.ex:101
 #, elixir-autogen, elixir-format
 msgid "Sorry, something went wrong on our side. Contact us at contact@tuist.dev and we'll look into it."
-msgstr "Извините, у нас произошла ошибка. Свяжитесь с нами по адресу contact@tuist.dev, и мы разберёмся."
+msgstr "Извините, произошла ошибка на нашей стороне. Свяжитесь с нами по адресу contact@tuist.dev, и мы это исправим."
 
 #: lib/tuist_web/controllers/error_html.ex:58
 #, elixir-autogen, elixir-format
 msgid "Sorry, the page you are looking for doesn't exist or has been moved."
-msgstr "Извините, запрашиваемая страница не существует или была перемещена."
+msgstr "Извините, страница, которую вы ищете, не существует или была перемещена."
 
 #: lib/tuist_web/controllers/error_html.ex:79
 #, elixir-autogen, elixir-format
 msgid "Sorry, you made too many requests. Please try again later."
-msgstr "Извините, слишком много запросов. Пожалуйста, попробуйте позже."
+msgstr "Извините, вы сделали слишком много запросов. Пожалуйста, попробуйте позже."
 
 #: lib/tuist_web/components/app_layout_components.ex:412
 #, elixir-autogen, elixir-format
@@ -286,7 +285,7 @@ msgstr "Хранилище"
 #: lib/tuist_web/components/account_dropdown.ex:100
 #, elixir-autogen, elixir-format
 msgid "Switch to your preferred theme"
-msgstr "Переключиться на выбранную тему"
+msgstr "Переключиться на предпочитаемую тему"
 
 #: lib/tuist_web/components/app_layout_components.ex:94
 #: lib/tuist_web/components/app_layout_components.ex:269
@@ -306,7 +305,7 @@ msgstr "Запуски тестов"
 msgid "Tests"
 msgstr "Тесты"
 
-#: lib/tuist_web/plugs/loader_plug.ex:53
+#: lib/tuist_web/plugs/loader_plug.ex:52
 #, elixir-autogen, elixir-format
 msgid "The account %{account_handle} was not found."
 msgstr "Аккаунт %{account_handle} не найден."
@@ -314,7 +313,7 @@ msgstr "Аккаунт %{account_handle} не найден."
 #: lib/tuist_web/live/layout_live.ex:153
 #, elixir-autogen, elixir-format
 msgid "The account you are looking for doesn't exist or has been moved."
-msgstr "Искомый аккаунт не существует или был перемещён."
+msgstr "Искомый аккаунт не существует или был перемещен."
 
 #: lib/tuist_web/controllers/auth_controller.ex:29
 #, elixir-autogen, elixir-format
@@ -325,21 +324,21 @@ msgstr "URL аутентификации не поддерживается"
 #: lib/tuist_web/authorization.ex:79
 #, elixir-autogen, elixir-format
 msgid "The page you are looking for doesn't exist or has been moved."
-msgstr "Искомая страница не существует или была перемещена."
+msgstr "Страница, которую вы ищете, не существует или была перемещена."
 
 #: lib/tuist_web/controllers/preview_controller.ex:133
 #, elixir-autogen, elixir-format
 msgid "The preview ipa doesn't exist or has expired."
-msgstr "Превью ipa не существует или срок его действия истёк."
+msgstr "Предпросмотр ipa не существует или срок действия истек."
 
 #: lib/tuist_web/controllers/api/cache/plugs/loader_query_plug.ex:36
-#: lib/tuist_web/plugs/loader_plug.ex:116
+#: lib/tuist_web/plugs/loader_plug.ex:115
 #, elixir-autogen, elixir-format
 msgid "The project %{project_slug} was not found."
 msgstr "Проект %{project_slug} не найден."
 
 #: lib/tuist_web/controllers/api/cache/plugs/loader_query_plug.ex:45
-#: lib/tuist_web/plugs/loader_plug.ex:120
+#: lib/tuist_web/plugs/loader_plug.ex:119
 #, elixir-autogen, elixir-format
 msgid "The project full handle %{project_slug} is invalid. It should follow the convention 'account_handle/project_handle'."
 msgstr "Полный идентификатор проекта %{project_slug} неверен. Он должен соответствовать формату 'account_handle/project_handle'."
@@ -347,9 +346,9 @@ msgstr "Полный идентификатор проекта %{project_slug} �
 #: lib/tuist_web/live/layout_live.ex:61
 #, elixir-autogen, elixir-format
 msgid "The project you are looking for doesn't exist or has been moved."
-msgstr "Искомый проект не существует или был перемещён."
+msgstr "Проект, который вы ищете, не существует или был перемещен."
 
-#: lib/tuist_web/plugs/loader_plug.ex:96
+#: lib/tuist_web/plugs/loader_plug.ex:95
 #, elixir-autogen, elixir-format
 msgid "The run with ID %{run_id} was not found."
 msgstr "Запуск с ID %{run_id} не найден."
@@ -357,7 +356,7 @@ msgstr "Запуск с ID %{run_id} не найден."
 #: lib/tuist_web/live/layout_live.ex:253
 #, elixir-autogen, elixir-format
 msgid "The run you are looking for doesn't exist or has been moved."
-msgstr "Искомый запуск не существует или был перемещён."
+msgstr "Запуск, который вы ищете, не существует или был перемещен."
 
 #: lib/tuist_web/controllers/error_html.ex:85
 #, elixir-autogen, elixir-format
@@ -375,7 +374,7 @@ msgstr "Слишком много запросов."
 msgid "Tuist Icon"
 msgstr "Иконка Tuist"
 
-#: lib/tuist_web/components/layout_components.ex:56
+#: lib/tuist_web/components/layout_components.ex:64
 #, elixir-autogen, elixir-format
 msgid "Tuist extends Apple's tools, helping you ship apps that stand out."
 msgstr "Tuist расширяет инструменты Apple, помогая создавать приложения, которые выделяются."
@@ -408,7 +407,7 @@ msgstr "У вас нет прав для просмотра этой стран�
 #: lib/tuist_web/authorization.ex:72
 #, elixir-autogen, elixir-format
 msgid "You need to be authenticated to access this page."
-msgstr "Для доступа к этой странице необходимо пройти аутентификацию."
+msgstr "Для доступа к этой странице требуется аутентификация."
 
 #: lib/tuist_web/controllers/user_session_controller.ex:28
 #, elixir-autogen, elixir-format
@@ -444,7 +443,7 @@ msgstr "Нестабильные тесты"
 #: lib/tuist_web/components/public_project_cta_banner.ex:33
 #, elixir-autogen, elixir-format
 msgid "Ready to speed up your builds and unlock insights for your app?"
-msgstr "Готовы ускорить сборки и получить инсайты для вашего приложения?"
+msgstr "Готовы ускорить сборки и получить новые данные о вашем приложении?"
 
 #: lib/tuist_web/components/public_project_cta_banner.ex:47
 #, elixir-autogen, elixir-format
@@ -454,13 +453,13 @@ msgstr "Свяжитесь с нами"
 #: lib/tuist_web/components/public_project_cta_banner.ex:26
 #, elixir-autogen, elixir-format
 msgid "This is a public dashboard for the %{account_name}/%{project_name} project."
-msgstr "Это публичная панель управления для проекта %{account_name}/%{project_name}."
+msgstr "Это публичная панель для проекта %{account_name}/%{project_name}."
 
 #: lib/tuist_web/components/app_layout_components.ex:120
 #: lib/tuist_web/components/app_layout_components.ex:295
 #, elixir-autogen, elixir-format
 msgid "Quarantined Tests"
-msgstr "Карантинные тесты"
+msgstr "Тесты в карантине"
 
 #: lib/tuist_web/components/app_layout_components.ex:180
 #, elixir-autogen, elixir-format
@@ -486,7 +485,7 @@ msgstr "Кэш"
 #: lib/tuist_web/controllers/preview_controller.ex:154
 #, elixir-autogen, elixir-format
 msgid "The preview APK doesn't exist or has expired."
-msgstr "Превью APK не существует или срок его действия истёк."
+msgstr "Предпросмотр APK не существует или срок действия истек."
 
 #: lib/tuist_web/live/components/machine_metrics_charts.ex:73
 #, elixir-autogen, elixir-format
@@ -498,112 +497,112 @@ msgstr "Метрики"
 msgid "Authentication failed"
 msgstr "Ошибка аутентификации"
 
-#: lib/tuist_web/controllers/auth_controller.ex:330
-#: lib/tuist_web/controllers/auth_controller.ex:502
+#: lib/tuist_web/controllers/auth_controller.ex:343
+#: lib/tuist_web/controllers/auth_controller.ex:515
 #, elixir-autogen, elixir-format
 msgid "Your identity provider denied access. Please ask your organization admin to assign you to the Tuist application."
-msgstr "Ваш провайдер идентификации отказал в доступе. Попросите администратора вашей организации назначить вас в приложение Tuist."
+msgstr "Ваш поставщик идентификации отказал в доступе. Пожалуйста, обратитесь к администратору вашей организации для назначения доступа к приложению Tuist."
 
 #: lib/tuist_web/components/app_layout_components.ex:131
 #: lib/tuist_web/components/app_layout_components.ex:306
 #, elixir-autogen, elixir-format
 msgid "Shards"
-msgstr "Фрагменты"
+msgstr "Шарды"
 
-#: lib/tuist_web/controllers/auth_controller.ex:339
+#: lib/tuist_web/controllers/auth_controller.ex:352
 #, elixir-autogen, elixir-format
 msgid "Authentication with the identity provider failed. Please try again."
-msgstr "Аутентификация через провайдера идентификации не удалась. Пожалуйста, попробуйте снова."
+msgstr "Ошибка аутентификации у поставщика идентификации. Пожалуйста, попробуйте снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:586
+#: lib/tuist_web/controllers/auth_controller.ex:599
 #, elixir-autogen, elixir-format
 msgid "Failed to authenticate with the SSO provider. Please try again."
-msgstr "Не удалось пройти аутентификацию через SSO провайдера. Пожалуйста, попробуйте снова."
+msgstr "Не удалось аутентифицироваться через SSO-провайдера. Пожалуйста, попробуйте снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:481
+#: lib/tuist_web/controllers/auth_controller.ex:494
 #, elixir-autogen, elixir-format
 msgid "SSO is not fully configured for this organization. Ask an organization admin to review the SSO settings."
 msgstr "SSO не полностью настроен для этой организации. Попросите администратора организации проверить настройки SSO."
 
-#: lib/tuist_web/controllers/auth_controller.ex:544
+#: lib/tuist_web/controllers/auth_controller.ex:557
 #, elixir-autogen, elixir-format
 msgid "The SSO authorization code is invalid or expired. Please restart the sign-in flow."
-msgstr "Код авторизации SSO недействителен или истёк. Пожалуйста, начните процесс входа заново."
+msgstr "Код авторизации SSO недействителен или истек. Пожалуйста, перезапустите процесс входа."
 
-#: lib/tuist_web/controllers/auth_controller.ex:516
+#: lib/tuist_web/controllers/auth_controller.ex:529
 #, elixir-autogen, elixir-format
 msgid "The SSO provider callback is missing an authorization code. Please restart the sign-in flow."
-msgstr "В callback SSO провайдера отсутствует код авторизации. Пожалуйста, начните процесс входа заново."
+msgstr "В callback SSO-провайдера отсутствует код авторизации. Пожалуйста, перезапустите процесс входа."
 
-#: lib/tuist_web/controllers/auth_controller.ex:467
+#: lib/tuist_web/controllers/auth_controller.ex:480
 #, elixir-autogen, elixir-format
 msgid "The SSO request is missing an organization identifier. Please start the sign-in flow again from the login page."
-msgstr "В запросе SSO отсутствует идентификатор организации. Пожалуйста, начните процесс входа заново с страницы входа."
+msgstr "В запросе SSO отсутствует идентификатор организации. Пожалуйста, начните процесс входа заново со страницы логина."
 
-#: lib/tuist_web/controllers/auth_controller.ex:495
+#: lib/tuist_web/controllers/auth_controller.ex:508
 #, elixir-autogen, elixir-format
 msgid "The SSO response could not be validated because the request state did not match. Please try again."
-msgstr "Ответ SSO не прошёл проверку, так как состояние запроса не совпало. Пожалуйста, попробуйте снова."
+msgstr "Невозможно проверить ответ SSO, так как состояние запроса не совпадает. Пожалуйста, попробуйте снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:523
+#: lib/tuist_web/controllers/auth_controller.ex:536
 #, elixir-autogen, elixir-format
 msgid "The configured SSO endpoints are invalid. Ask your organization admin to review the SSO settings."
-msgstr "Настроенные SSO конечные точки недействительны. Попросите администратора вашей организации проверить настройки SSO."
+msgstr "Настроенные конечные точки SSO неверны. Попросите администратора вашей организации проверить настройки SSO."
 
 #: lib/tuist_web/components/layouts/ops.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Tuist Ops"
-msgstr "Операции Tuist"
+msgstr "Tuist Ops"
 
-#: lib/tuist_web/controllers/auth_controller.ex:530
+#: lib/tuist_web/controllers/auth_controller.ex:543
 #, elixir-autogen, elixir-format
 msgid "Tuist couldn't exchange the authorization code with your identity provider. Ask your organization admin to verify the SSO credentials and callback URL."
-msgstr "Tuist не удалось обменять код авторизации с вашим провайдером идентификации. Попросите администратора вашей организации проверить учетные данные SSO и URL callback."
+msgstr "Tuist не смог обменять код авторизации с вашим поставщиком идентификации. Попросите администратора вашей организации проверить учётные данные SSO и URL callback."
 
-#: lib/tuist_web/controllers/auth_controller.ex:537
+#: lib/tuist_web/controllers/auth_controller.ex:550
 #, elixir-autogen, elixir-format
 msgid "Tuist couldn't fetch your profile from your identity provider. Ask your organization admin to verify the user info endpoint and configured scopes."
-msgstr "Tuist не удалось получить ваш профиль от провайдера идентификации. Попросите администратора вашей организации проверить конечную точку информации о пользователе и настроенные области доступа."
+msgstr "Tuist не смог получить ваш профиль от поставщика идентификации. Попросите администратора вашей организации проверить конечную точку информации о пользователе и настроенные области доступа."
 
-#: lib/tuist_web/controllers/auth_controller.ex:579
+#: lib/tuist_web/controllers/auth_controller.ex:592
 #, elixir-autogen, elixir-format
 msgid "We couldn't complete the SSO callback for this request. Please try again."
 msgstr "Не удалось завершить callback SSO для этого запроса. Пожалуйста, попробуйте снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:474
+#: lib/tuist_web/controllers/auth_controller.ex:487
 #, elixir-autogen, elixir-format
 msgid "We couldn't find the organization for this SSO request. Please verify that you are using the correct SSO link."
-msgstr "Не удалось найти организацию для этого запроса SSO. Пожалуйста, убедитесь, что вы используете правильную ссылку SSO."
+msgstr "Мы не смогли найти организацию для этого запроса SSO. Пожалуйста, убедитесь, что используете правильную ссылку SSO."
 
-#: lib/tuist_web/controllers/auth_controller.ex:572
+#: lib/tuist_web/controllers/auth_controller.ex:585
 #, elixir-autogen, elixir-format
 msgid "We couldn't start the SSO flow for this organization. Please verify the SSO configuration and try again."
-msgstr "Не удалось запустить процесс SSO для этой организации. Пожалуйста, проверьте настройки SSO и попробуйте снова."
+msgstr "Не удалось запустить процесс SSO для этой организации. Пожалуйста, проверьте конфигурацию SSO и попробуйте снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:488
+#: lib/tuist_web/controllers/auth_controller.ex:501
 #, elixir-autogen, elixir-format
 msgid "Your SSO session has expired. Please restart the sign-in flow from the login page."
-msgstr "Ваша сессия SSO истекла. Пожалуйста, начните процесс входа заново со страницы входа."
+msgstr "Сессия SSO истекла. Пожалуйста, перезапустите процесс входа со страницы логина."
 
-#: lib/tuist_web/controllers/auth_controller.ex:565
+#: lib/tuist_web/controllers/auth_controller.ex:578
 #, elixir-autogen, elixir-format
 msgid "Your Tuist account already exists, but it isn't a member of this organization. Ask an organization admin to add you, then sign in with SSO again."
-msgstr "Ваш аккаунт Tuist уже существует, но он не является участником этой организации. Попросите администратора организации добавить вас, затем выполните вход через SSO снова."
+msgstr "Ваш аккаунт Tuist уже существует, но не является членом этой организации. Попросите администратора организации добавить вас, затем войдите через SSO снова."
 
-#: lib/tuist_web/controllers/auth_controller.ex:551
+#: lib/tuist_web/controllers/auth_controller.ex:564
 #, elixir-autogen, elixir-format
 msgid "Your identity provider response is missing a stable user identifier. Ask your organization admin to review the user info claims."
-msgstr "В ответе вашего провайдера идентификации отсутствует стабильный идентификатор пользователя. Попросите администратора вашей организации проверить утверждения об информации о пользователе."
+msgstr "В ответе поставщика идентификации отсутствует стабильный идентификатор пользователя. Попросите администратора вашей организации проверить данные пользователя."
 
-#: lib/tuist_web/controllers/auth_controller.ex:558
+#: lib/tuist_web/controllers/auth_controller.ex:571
 #, elixir-autogen, elixir-format
 msgid "Your identity provider response is missing an email address. Ask your organization admin to include the email claim."
-msgstr "В ответе вашего провайдера идентификации отсутствует адрес электронной почты. Попросите администратора вашей организации включить утверждение об электронной почте."
+msgstr "В ответе поставщика идентификации отсутствует адрес электронной почты. Попросите администратора вашей организации добавить это поле."
 
-#: lib/tuist_web/controllers/auth_controller.ex:509
+#: lib/tuist_web/controllers/auth_controller.ex:522
 #, elixir-autogen, elixir-format
 msgid "Your identity provider returned an authentication error. Please try again or contact your organization admin."
-msgstr "Ваш провайдер идентификации возвратил ошибку аутентификации. Пожалуйста, попробуйте снова или свяжитесь с администратором вашей организации."
+msgstr "Поставщик идентификации вернул ошибку аутентификации. Пожалуйста, попробуйте снова или свяжитесь с администратором вашей организации."
 
 #: lib/tuist_web/components/account_dropdown.ex:73
 #, elixir-autogen, elixir-format
@@ -620,3 +619,8 @@ msgstr "Аккаунты"
 #, elixir-autogen, elixir-format
 msgid "Authentication"
 msgstr "Аутентификация"
+
+#: lib/tuist_web/controllers/github_app_setup_controller.ex:34
+#, elixir-autogen, elixir-format
+msgid "This GitHub app installation is already connected."
+msgstr "Эта установка GitHub-приложения уже подключена."
